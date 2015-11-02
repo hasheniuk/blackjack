@@ -1,0 +1,128 @@
+body {
+    background: url("../images/blackjack.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.btn {
+    width: 75px;
+}
+
+.btn-gold {
+    background: goldenrod;
+}
+
+.login {
+    position: fixed;
+    width: 280px;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -150px;
+    text-align: right;
+}
+
+.warn {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    background: black;
+}
+
+.table, .controllers {
+    position: fixed;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.table {
+    margin-top: 4vh;
+    height: 88vh;
+    background: rgba(0, 100, 0, 0.9);
+}
+
+.controllers {
+    margin-top: 75vh;
+    height: 15vh;
+}
+
+.table img {
+    width: 90px;
+    height: 120px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.dealer {
+    height: 50%;
+}
+
+.player {
+    height: 50%;
+}
+
+.icon {
+    display: table;
+    width: 30%;
+    margin-left: 46%;
+    margin-right: auto;
+    max-height: 25%;
+}
+
+.dealer-icon {
+    margin-top: 5vh;
+}
+
+.player-icon {
+    margin-top: 7vh;
+}
+
+.icon img {
+    height: 120px;
+    width: 90px;
+}
+
+.icon figcaption {
+    display: table-cell;
+    color: white;
+    font-weight: bold;
+    vertical-align: top;
+    width: 200px;
+}
+
+.card-container {
+    width: 100%;
+    text-align: center;
+    height: 25%;
+}
+
+.center-wrapper {
+    margin: auto;
+    width: 200px;
+}
+
+.card {
+    float: left;
+    margin: 0;
+}
+
+.card img {
+    width: 100px;
+    height: 120px;
+}
+
+.controller {
+    position: fixed;
+    width: 225px;
+    top: 100vh;
+    left: 50%;
+    margin-top: -6vh;
+    margin-left: -100px;
+    text-align: right;
+}
+
+.game-controller {
+    display: none;
+}
